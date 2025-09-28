@@ -1,6 +1,6 @@
 # Interpretable-Credit-Default-Prediction
 
-##Step8 : Permutation Importance
+## Step 8: Permutation Importance
 Computed using sklearn.inspection.permutation_importance.
 Measures the drop in model performance when a feature’s values are randomly shuffled.
 Results:
