@@ -6,13 +6,13 @@ This repository contains code for the course project on Interpretability, Stabil
 
 The project implements comprehensive analysis across three key dimensions:
 
-Global Interpretability: Surrogate models (Linear Regression, Decision Trees), Partial Dependence Plots (PDP)
-Local Interpretability: LIME, ICE, SHAP methods
-Performance Interpretability: Permutation Importance
-Structural Stability: Model performance evaluation across train/validation/test splits
-Model Fairness: Fairness assessment with respect to protected attributes, Fair Partial Dependence Plots (FPDP)
+1. Global Interpretability: Surrogate models (Linear Regression, Decision Trees), Partial Dependence Plots (PDP)
+2. Local Interpretability: LIME, ICE, SHAP methods
+3. Performance Interpretability: Permutation Importance
+4. Structural Stability: Model performance evaluation across train/validation/test splits
+5. Model Fairness: Fairness assessment with respect to protected attributes, Fair Partial Dependence Plots (FPDP)
 
 ## Models
 
-Black-box model: CatBoost
-Surrogate models: Linear Regression, Decision Tree Regressor
+1. Black-box model: CatBoost
+2. Surrogate models: Linear Regression, Decision Tree Regressor
