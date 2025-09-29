@@ -1,13 +1,18 @@
 # Interpretable-Credit-Default-Prediction
 
-## Step 8: Permutation Importance
-Computed using sklearn.inspection.permutation_importance.
+This repository contains code for the course project on Interpretability, Stability and Model Fairness.
 
-Measures the drop in model performance when a feature’s values are randomly shuffled.
+## Project Scope
 
-Results:
+The project implements comprehensive analysis across three key dimensions:
 
-1. num__funded_amnt was the single most important predictor.
-2. Other features like num__revol_bal, num__bc_util, and num__annual_inc added moderate predictive value.
-3. A long tail of smaller features contributed incremental improvements.
-4. Cumulative analysis showed it takes ~30 features to cover 80% of total predictive power → importance is spread across many features.
+Global Interpretability: Surrogate models (Linear Regression, Decision Trees), Partial Dependence Plots (PDP)
+Local Interpretability: LIME, ICE, SHAP methods
+Performance Interpretability: Permutation Importance
+Structural Stability: Model performance evaluation across train/validation/test splits
+Model Fairness: Fairness assessment with respect to protected attributes, Fair Partial Dependence Plots (FPDP)
+
+## Models
+
+Black-box model: CatBoost
+Surrogate models: Linear Regression, Decision Tree Regressor
